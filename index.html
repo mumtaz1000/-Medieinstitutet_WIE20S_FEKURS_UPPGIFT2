@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget App</title>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="inkomst">
+      <h2>Inkomst :</h2>
+      <span class="inkomstData"></span>
+    </div>
+    <div class="kostnad">
+      <h2>Kostnad :</h2>
+      <span class="kostnadData"></span>
+    </div>
+    <div class="Vinst">
+      <h2>Vinst/Forlust:</h2>
+      <span class="vinstData"></span>
+    </div>
+    <form>
+      <select name="" id="selectOption">
+        <option value="+">+</option>
+        <option value="-">-</option>
+      </select>
+      <input type="text" name="" id="description" />
+      <input type="number" id="value" />
+      <button class="add">Add</button>
+    </form>
+    <div class="InkomstLista">
+      <h2>InkomstLista :</h2>
+      <ul class="listaIncome"></ul>
+      <button class="rensa">Delete</button>
+    </div>
+    <div class="KostnadLista">
+      <h2>KostnadLista :</h2>
+      <ul class="listaKostnad"></ul>
+    </div>
+  </body>
+</html>
