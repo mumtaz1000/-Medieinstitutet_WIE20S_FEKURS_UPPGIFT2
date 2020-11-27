@@ -3,39 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
     <title>Budget App</title>
     <script src="app.js" defer></script>
   </head>
   <body>
+    <div class="container">
+    <section class="calculator">
+      <form>
+        <select name="" id="selectOption">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          &nbsp;
+        </select>
+        <input type="text" name="" id="description" placeholder="Description...."/>
+        <input type="number" id="value" placeholder="123..."/>
+        &nbsp;
+        <button class="add">Add</button>
+        <button class="rensa">Delete</button>
+      </form>
+    </section>
+    <section class="display">
     <div class="inkomst">
-      <h2>Inkomst :</h2>
+      <h2>Sista Inkomst :</h2>
       <span class="inkomstData"></span>
     </div>
     <div class="kostnad">
-      <h2>Kostnad :</h2>
+      <h2>Sista Kostnad :</h2>
       <span class="kostnadData"></span>
     </div>
     <div class="Vinst">
       <h2>Vinst/Forlust:</h2>
       <span class="vinstData"></span>
     </div>
-    <form>
-      <select name="" id="selectOption">
-        <option value="+">+</option>
-        <option value="-">-</option>
-      </select>
-      <input type="text" name="" id="description" />
-      <input type="number" id="value" />
-      <button class="add">Add</button>
-    </form>
+  
     <div class="InkomstLista">
       <h2>InkomstLista :</h2>
       <ul class="listaIncome"></ul>
-      <button class="rensa">Delete</button>
+      
     </div>
     <div class="KostnadLista">
       <h2>KostnadLista :</h2>
       <ul class="listaKostnad"></ul>
     </div>
+
+</section>
+</div>
   </body>
 </html>

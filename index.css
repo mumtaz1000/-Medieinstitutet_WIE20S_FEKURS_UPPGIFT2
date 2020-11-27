@@ -1,0 +1,37 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.add,
+.rensa {
+  border-radius: 10%;
+  color: white;
+  padding: 0.5rem;
+}
+
+.add {
+  background-color: #006622;
+}
+
+.rensa {
+  background-color: #b32d00;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 30% auto;
+  grid-gap: 0;
+  padding: 10px;
+}
+
+.calculator {
+  background-color: #f2f2f2;
+}
+
+/*# sourceMappingURL=index.css.map */
