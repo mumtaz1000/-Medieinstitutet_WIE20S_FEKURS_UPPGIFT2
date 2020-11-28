@@ -1,8 +1,8 @@
+//JS fil som innehåller alla behöriga funktioner
+var valueLista = []; //global array 
 
-var valueLista = [];
 function countTotal(e){
     e.preventDefault();
-    console.log("Hello")
     var options = document.querySelector("#selectOption")
     console.log(options.value)
 if(options.value === "+")

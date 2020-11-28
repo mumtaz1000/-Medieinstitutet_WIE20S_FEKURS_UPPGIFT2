@@ -2,30 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- Länk för att skapa reponsiv sidan -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google fonts länk -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
     />
+    <!-- CSS fil länk -->
     <link rel="stylesheet" href="./scss_folder/index.css" />
     <title>Budget App</title>
+    <!-- JS fil länk -->
     <script src="app.js" defer></script>
   </head>
   <body>
+    <!-- Hel sidan div -->
     <div class="container">
+      <!-- Första sub div som heter Vinst -->
       <div class="Vinst">
         <h1 class="vinstData">Vinst/Forlust</h1>
       </div>
+      <!-- Andra sub div som heter calculator som innehåller form som ska ta input från användare -->
       <section class="calculator">
         <form>
           <label for="description">Inkomst/Kostnad Description</label><br />
-
           <select name="" id="selectOption">
             <option value="+">+</option>
             <option value="-">-</option>
             &nbsp;
           </select>
-
           <input
             type="text"
             name=""
@@ -39,7 +44,7 @@
           <button class="rensa">Delete</button>
         </form>
       </section>
-
+      <!-- I den här div som heter display ska vi visa resultat -->
       <section class="display">
         <div class="inkomst">
           <h2>Sista Inkomst</h2>
