@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./scss_folder/index.css" />
+    <title>Budget App</title>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="Vinst">
+        <h1 class="vinstData">Vinst/Forlust</h1>
+      </div>
+      <section class="calculator">
+        <form>
+          <label for="description">Inkomst/Kostnad Description</label><br />
+
+          <select name="" id="selectOption">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            &nbsp;
+          </select>
+
+          <input
+            type="text"
+            name=""
+            id="description"
+            placeholder="Description...."
+          /><br /><br />
+          <label for="value">Antal</label>
+          <input type="number" id="value" placeholder="123..." /><br /><br />
+          &nbsp;
+          <button class="add">Add</button>
+          <button class="rensa">Delete</button>
+        </form>
+      </section>
+
+      <section class="display">
+        <div class="inkomst">
+          <h2>Sista Inkomst</h2>
+          <span class="inkomstData"></span>
+        </div>
+        <div class="kostnad">
+          <h2>Sista Kostnad</h2>
+          <span class="kostnadData"></span>
+        </div>
+
+        <div class="InkomstLista">
+          <h2>InkomstLista</h2>
+          <ul class="listaIncome"></ul>
+        </div>
+        <div class="KostnadLista">
+          <h2>KostnadLista</h2>
+          <ul class="listaKostnad"></ul>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
