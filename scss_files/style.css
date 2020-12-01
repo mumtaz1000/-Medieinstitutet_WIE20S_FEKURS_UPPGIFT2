@@ -8,6 +8,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.Vinst > h2 {
+  color: white;
+}
+
 .add,
 .rensa {
   border-radius: 10%;
@@ -25,13 +29,23 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 30% auto;
-  grid-gap: 0;
-  padding: 10px;
+  grid-template-columns: minmax(200px, 25%) minmax(20px, 40%);
+  justify-content: center;
+  align-items: center;
 }
 
 .calculator {
   background-color: #f2f2f2;
 }
 
-/*# sourceMappingURL=index.css.map */
+.display {
+  background-color: bisque;
+}
+
+.calculator,
+.display {
+  text-align: center;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

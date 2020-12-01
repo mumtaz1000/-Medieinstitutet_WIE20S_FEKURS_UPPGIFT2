@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Finding error in github  -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./scss_files/style.css" />
     <title>Budget App</title>
     <script src="app.js" defer></script>
   </head>
@@ -20,13 +21,18 @@
           &nbsp;
         </select>
         <input type="text" name="" id="description" placeholder="Description...."/>
+        <br><br>
         <input type="number" id="value" placeholder="123..."/>
-        &nbsp;
+        <br><br>
         <button class="add">Add</button>
         <button class="rensa">Delete</button>
       </form>
     </section>
     <section class="display">
+      <div class="Vinst">
+        <h2>0000</h2>
+        <span class="vinstData"></span>
+      </div>
     <div class="inkomst">
       <h2>Sista Inkomst :</h2>
       <span class="inkomstData"></span>
@@ -35,10 +41,7 @@
       <h2>Sista Kostnad :</h2>
       <span class="kostnadData"></span>
     </div>
-    <div class="Vinst">
-      <h2>Vinst/Forlust:</h2>
-      <span class="vinstData"></span>
-    </div>
+   
   
     <div class="InkomstLista">
       <h2>InkomstLista :</h2>
@@ -49,7 +52,6 @@
       <h2>KostnadLista :</h2>
       <ul class="listaKostnad"></ul>
     </div>
-
 </section>
 </div>
   </body>
